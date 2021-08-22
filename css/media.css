@@ -156,6 +156,13 @@
         min-height: 375px;
         margin: 30px auto;
     }
+    .header_btn:before{
+        display: block;
+
+    }
+    .advantages_item{
+        padding: 0 0;
+    }
 }
 @media (max-width: 540px){
     .news_slider{
@@ -177,13 +184,7 @@
     .news_slider-inner .slick_btn{
         bottom: -110px;
     }
-    .header_btn:before{
-        display: block;
 
-    }
-    .advantages_item{
-        padding: 0 0;
-    }
 }
 @media (max-width: 414px){
      .slider_title{
