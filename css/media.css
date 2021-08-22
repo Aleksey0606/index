@@ -163,6 +163,9 @@
         min-height: 375px;
         margin: 30px auto;
     }
+    .header{
+        margin-bottom: 100px;
+    }
   
 }
 @media (max-width: 540px){
@@ -194,6 +197,10 @@
     .slider_text{
         font-size: 16px;
     }
+    .header{
+        margin-bottom: 120px;
+    }
+
 }
 
 
