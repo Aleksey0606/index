@@ -177,6 +177,13 @@
     .news_slider-inner .slick_btn{
         bottom: -110px;
     }
+    .header_btn:before{
+        display: block;
+
+    }
+    .advantages_item{
+        padding: 0 0;
+    }
 }
 @media (max-width: 414px){
      .slider_title{
@@ -187,15 +194,6 @@
     }
 }
 
-@media (max-width: 400px){
-    .header_btn:before{
-        display: block;
-
-    }
-    .advantages_item{
-        padding: 0 0;
-    }
-}
 
 @media (max-width: 375px){
     .header_email{
