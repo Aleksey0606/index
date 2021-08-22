@@ -147,13 +147,6 @@
     .menu li + li{
         padding-left: 0;
     }
-    .header_btn:before{
-        display: block;
-
-    }
-    .advantages_item{
-        padding: 0 0;
-    }
 }
 
 @media (max-width: 600px){
@@ -163,8 +156,6 @@
         min-height: 375px;
         margin: 30px auto;
     }
- 
-  
 }
 @media (max-width: 540px){
     .news_slider{
@@ -186,7 +177,13 @@
     .news_slider-inner .slick_btn{
         bottom: -110px;
     }
+    .header_btn:before{
+        display: block;
 
+    }
+    .advantages_item{
+        padding: 0 0;
+    }
 }
 @media (max-width: 414px){
      .slider_title{
@@ -198,10 +195,17 @@
     .header{
         margin-bottom: 120px;
     }
-
 }
 
+@media (max-width: 400px){
+    .header_btn:before{
+        display: block;
 
+    }
+    .advantages_item{
+        padding: 0 0;
+    }
+}
 
 @media (max-width: 375px){
     .header_email{

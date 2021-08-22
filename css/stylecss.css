@@ -29,9 +29,9 @@
    color: #5e5e5e;
  }
 .header{
-    
     font-family: 'Roboto', sans-serif;
     margin-bottom: 70px;
+    
 }
 .header_fixed{
     position: fixed;
@@ -40,7 +40,6 @@
     top: 0;
     z-index: 100;
 }
-
  .header_top {
      background-color: #303030;
 
@@ -103,7 +102,10 @@
     color: #ffc222;
  }
  .header_content{
-    padding: 25px 0px 23px;
+    padding: 35px 0px 23px;
+    background-color: #fff;
+    
+ 
 
  }
 
